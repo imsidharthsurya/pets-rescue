@@ -1,0 +1,163 @@
+body{
+  margin: 0;
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 40px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav span {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 7px 40px;
+  text-decoration: none;
+  font-size: 27px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #BB8C53;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #F7C66B;
+  color: white;
+}
+.main-image{
+  background: url(images/golden-retriever-colors-1024x576.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70%;
+  width: 100%;
+}
+q{
+  font-size: 25px;
+
+  font-style: italic;
+  color: saddlebrown;
+  
+  
+
+}
+body > h1{
+  margin-top: 50px;
+  text-align: center;
+  
+}
+body > p{
+  width: 60%;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+body > ol {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+body > ol > li {
+  margin-top: 20px;
+}
+footer {
+  background-color: #BB8C53;
+  color: white;
+  margin-top: 25px;
+  padding: 25px;
+  overflow: hidden;
+}
+
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.adopt {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+
+.adopt:hover{
+  opacity: 0.7;
+}
+
+
+/*donation*/
+
+form{
+  margin-top: 20px;
+  font-size: 20px;
+}
+.donate{
+  font-size: 20px;
+  border-radius: 8px;
+  padding: 12px 36px;
+  background-color: #BB8C53;
+  color: white;
+  border: none;
+  transition-duration: 0.4s;
+}
+
+.donate:hover {
+  background-color: #F7C66B;
+  color:#BB8C53;
+}
+.time{
+  font-size: 20px;
+  border-radius: 8px;
+  padding: 12px 36px;
+  background-color: #BB8C53;
+  color: white;
+  border: none;
+  transition-duration: 0.4s;
+}
+
+.time:hover {
+  background-color: #F7C66B;
+  color:#BB8C53;
+}
+
+form{
+  width: 60%;
+  margin: 20px auto;
+}
